@@ -1,0 +1,39 @@
+<html>
+<head> login
+<?php
+    $db = mysqli_connect('localhost','nithin','kkkk','data');
+?>
+<script type ="text/javascript">
+function validate()
+{
+if(t2.value== "allthebest" && t1.value== "exam")
+{
+window.open('https://www.google.co.in');
+}
+else
+{
+alert("sorry.. wrong password");
+}
+}
+</script>
+</head>
+<body><p>
+<div style="background-color:#775678;color:#f5fffa;width:100%;height:10%;font-size:150%;top:0px;left:0px;right:0px;position:fixed;"><center><b><big><span style="color:orange">SIGN IN</big></b></center></div>
+<div style="background-color:#555555; color:white; padding:20px;float:left;top:50px;position:relative;width:100%">
+<div style="float:left;left:0px;right:0px;width:805">
+<h1><b><center><span style="color:lightblue"><span style="color:blue">G<span style="color:red">O<span style="color:yellow">O<span style="color:blue">G<span style="color:green">L<span style="color:red">E</span></b></h1>
+
+</div>
+<form setAction = "validate()">
+</br>
+
+username <input type="text" name="type name" id="t1"></br>
+password <input type="password" name="type password" id="t2"></br>
+
+<input type="submit" value="login" onclick="validate()">
+</br>
+<footer><center>
+&#169 Nithin.K
+</footer>
+</body>
+</html>
